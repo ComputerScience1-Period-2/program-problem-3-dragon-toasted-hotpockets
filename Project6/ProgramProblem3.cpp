@@ -36,13 +36,13 @@ void pause() {
 void main() {
 	// Variables
 	int three_digit_number;
-	
+		// Asks the user to enter a three digit number
 		cout << "enter a three digit number" << endl;
-		cin >> three_digit_number;
+		cin >> three_digit_number; // takes in a 3 digit number from a a trust worthy user. 
 		
-		int x = three_digit_number; 
-		int c = x % 10;
-		int b = (x / 10) % 10;
+		int x = three_digit_number; // sets x to that 3 digit number
+		int c = x % 10; // mods x by 10 c stores the last digit.
+		int b = (x / 10) % 10; 
 		int a = x / 100;
 		if (a < b && b < c) {
 			cout << "Ascending . . . " << endl;
