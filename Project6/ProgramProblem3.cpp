@@ -45,13 +45,13 @@ void main() {
 		int b = (x / 10) % 10;
 		int a = x / 100;
 		if (a < b && b < c) {
-			cout << "Ascending . . . " << endl;
+			cout << "This is Ascending order . . . " << endl;
 			}
 		else if (a > b && b > c) {
-			cout << "Descending . . .  " << endl;
+			cout << "This is Descending order . . .  " << endl;
 			}
 		else {
-			cout << "Neither . . . " << endl;
+			cout << "This is Neither order . . . " << endl;
 		}
 
 		pause(); // pauses to see the displayed text
